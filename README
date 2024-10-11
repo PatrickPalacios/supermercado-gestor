@@ -1,0 +1,30 @@
+# Sistema de Gestión de Artículos y Tickets en Supermercado
+
+Este proyecto es un sistema básico para gestionar artículos y tickets en 
+un supermercado utilizando una base de datos NoSQL con MongoDB y Mongoose. 
+El sistema permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) 
+para los artículos y los tickets de compra. Adicionalmente, se calculan los subtotales, 
+IVA y totales en los tickets, y se actualizan las existencias de los artículos en función 
+de las ventas registradas en los tickets.
+
+## Requisitos
+
+### Funcionales:
+1. El sistema debe permitir almacenar y gestionar información sobre los artículos del supermercado.
+2. Debe ser posible realizar operaciones CRUD sobre los artículos.
+3. Los tickets deben incluir la capacidad de calcular subtotales, IVA y el total final.
+4. Los tickets deben permitir actualizar las existencias de los artículos cuando se realiza una compra.
+5. Operaciones CRUD sobre los tickets.
+
+### No funcionales:
+1. El sistema debe ser eficiente y rápido en el acceso a la base de datos.
+2. La estructura debe permitir fácilmente escalabilidad y nuevas funcionalidades.
+3. La base de datos debe estar normalizada para garantizar consistencia en los datos.
+
+## Posibles mejoras y características futuras
+1. Implementación de autenticación y control de acceso para gestionar los tickets y los artículos.
+2. Optimización de consultas y mejora de rendimiento para grandes volúmenes de datos.
+3. Automatización de pruebas unitarias para garantizar la funcionalidad correcta.
+4. Implementación de notificaciones cuando las existencias de un artículo sean bajas.
+5. Creación de informes estadísticos de ventas y stock.
+
